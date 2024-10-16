@@ -48,7 +48,7 @@ This project is a full-stack web application that implements user authentication
     npm install
 
 4. **Set up the environment variables**:
-  Open the `.env` file in the `backend` directory and update the following variables:
+  Create a file named `.env` in the `backend` directory and set the following variables:
     ```plaintext
     PORT=3000
     MONGODB_URI=<your-mongodb-uri>
