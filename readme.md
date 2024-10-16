@@ -37,17 +37,17 @@ This project is a full-stack web application that implements user authentication
     git clone <repository-url>
     cd <repository-folder>
 
-2. **Start MongoDB:**
+2. **Start MongoDB.**
   Make sure your MongoDB server is running to generate a MongoDB URI.
 
-3. **Backend setup:**
+3. **Backend setup.**
   Navigate to the backend directory and install the dependencies:
 
     ```bash
     cd backend
     npm install
 
-4. **Set up the environment variables**:
+4. **Set up the environment variables.**
   Create a file named `.env` in the `backend` directory and set the following variables:
     ```plaintext
     PORT=3000
@@ -57,18 +57,18 @@ This project is a full-stack web application that implements user authentication
 - Update `<your-mongodb-uri>` with your actual MongoDB connection string.
 - Update `<your-secret-key>` with a secure secret key for JWT.
 
-5. **Start the Backend Server:**
+5. **Start the Backend Server.**
   In the backend directory, run:
     ```bash 
     npm run dev 
 
-6. **Frontend Setup:**
+6. **Frontend Setup.**
   Navigate to the frontend directory and install the dependencies:
     ```bash 
     cd ../frontend
     npm install
 
-7. **Start the Frontend Server:**
+7. **Start the Frontend Server.**
   In the frontend directory, run:
     ```bash 
     npm run dev
