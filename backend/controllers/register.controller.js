@@ -1,4 +1,3 @@
-//definimos las funciones que se ejecutan en cada ruta para /register
 import User from "../models/user.model.js";
 
 const createUser = async (req, res) => {

@@ -6,7 +6,7 @@ const MONGO_URI='mongodb+srv://pridafabrizio:QvKBBZU2hm2TGNxZ@cluster0.xlzt0.mon
 
 export const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(MONGO_URI);
+        const conn = await mongoose.connect(process.env.MONGO_URI);
         console.log(`MongoDB Connected: ${conn.connection.host}`);
     } catch(error){
         console.error(`Error: ${error.message}`);

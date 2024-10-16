@@ -10,9 +10,9 @@ function App() {
 
   return (
     <Box 
-      bg="gray.100"   // Color de fondo fuera del contenedor
-      minH="100vh"    // Hace que el contenedor cubra toda la altura de la pantalla
-      p={5}           // Añade padding global
+      bg="gray.100"   
+      minH="100vh"    
+      p={5}           
     >
       <Box 
         maxW="md" 
@@ -22,9 +22,9 @@ function App() {
         borderWidth={1} 
         borderRadius="lg" 
         textAlign="center"
-        bg="white"    // Color de fondo del contenedor
-        color="brand.900"  // Color del texto dentro del contenedor
-        boxShadow="lg"    // Añade sombra para darle estilo
+        bg="white"    
+        color="brand.900" 
+        boxShadow="lg"    
         >
         <Image src={logo} alt="Ray Logo" boxSize="100px" mx="auto" mb={4} />
         <Routes>
@@ -35,8 +35,6 @@ function App() {
       </Routes>
       </Box>
     </Box>
-    
-    
   )
 }
 

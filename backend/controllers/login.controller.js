@@ -1,4 +1,3 @@
-//definimos las funciones que se ejecutan en cada ruta para /login
 import User from '../models/user.model.js'
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv';
