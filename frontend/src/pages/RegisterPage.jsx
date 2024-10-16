@@ -26,7 +26,7 @@ const RegisterPage = () => {
             });
 
             if(response.status === 201){
-                setSuccess('Registered successfully! Logging in...');
+                setSuccess('Registered successfully!');
                 setError('');
                 setTimeout(() => {
                     navigate('/login'); 
