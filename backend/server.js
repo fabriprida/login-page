@@ -17,11 +17,6 @@ app.use("/register", registerRoutes);
 app.use("/login", loginRoutes);
 
 
-app.post('/register', (req, res) => {
-    const user = req.body;
-    
-})
-
 app.listen(PORT, () => {
     connectDB();
     console.log("Server running at port " + PORT);
