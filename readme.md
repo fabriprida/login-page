@@ -81,4 +81,4 @@ Now, you should be able to access the application in your browser at http://loca
 
 I chose to use **React** and **Node.js** due to their ease of use, particularly since everything is built in JavaScript. I found that setting up the server and creating the API with **Node.js** was very straightforward, allowing me to focus on developing the application's functionality.
 
-Additionally, I opted for **Chakra UI** for the frontend because it made designing the pages straightforward and efficient. However, I noticed that I've used multiple instances of repetitive styles. A potential improvement for the future would be to create reusable style components or theme extensions to minimize this redundancy and streamline the codebase.
+Additionally, I opted for **Chakra UI** for the frontend because it made designing the pages straightforward and efficient. 
